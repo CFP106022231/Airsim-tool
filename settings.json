@@ -1,0 +1,41 @@
+
+{
+  "SettingsVersion": 1.2,
+  "SimMode": "ComputerVision",
+  "CameraDefaults": {
+    "CaptureSettings": [
+      {
+        "ImageType": 0,
+        "Width": 128,
+        "Height": 128,
+        "FOV_Degrees": 90
+      },
+      {
+        "ImageType": 2,
+        "Width": 128,
+        "Height": 128,
+        "FOV_Degrees": 90
+      },
+      {
+        "ImageType": 6,
+        "Width": 128,
+        "Height": 128,
+        "FOV_Degrees": 90
+      },
+      {
+        "ImageType": 8,
+        "Width": 128,
+        "Height": 128,
+        "FOV_Degrees": 90
+      }
+  ]
+},
+
+  "SubWindows": [
+    {"WindowID": 0, "CameraName": "0", "ImageType": 0, "VehicleName": "", "Visible": false, "External": false},
+    {"WindowID": 1, "CameraName": "0", "ImageType": 3, "VehicleName": "", "Visible": false, "External": false},
+    {"WindowID": 2, "CameraName": "0", "ImageType": 9, "VehicleName": "", "Visible": false, "External": false}
+  ]
+}
+
+
