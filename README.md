@@ -9,8 +9,11 @@
 此project附上的檔案是使用計算機模式的。
 ![image](https://github.com/CFP106022231/Airsim-tool/assets/48315120/a6e9d2d6-9c9e-4fef-8603-531494e60243)
 
-Airsim 以 unreal engine 的材質輸出data，可以串C++或python之類的把資料取出。我是用python（get_data.py），我有輸出的資料如下：
+Airsim 以 unreal engine 的材質輸出data，可以串C++或python之類的把資料取出。
+輸出的資料如下：
 1.	Raw image：BGR圖像
 2.	姿態：平移(x,y,z) 和以四元數表示的旋轉。
 3.	光流：我們有修改，輸出光流的大小和角度。OF[...,0]為光流大小，需再自行乘以解析度（如128），單位才是pixel/frame。OF[...,1]為角度，單位弧度。
 4.	深度
+
+[hackmd交接note](https://hackmd.io/@hsinyuyuuu/Sk-xaaK2a)
